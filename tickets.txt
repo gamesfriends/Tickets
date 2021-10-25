@@ -1,2 +1,3 @@
-1 - Estructura y archivos iniciales.
-2 - Confeccion del menu de navegacion y estilos basicos.
+001 - Estructura y archivos iniciales.
+002 - Confeccion del menu de navegacion y estilos basicos.
+003 - Armado del aspecto visual de la table y el formulario.

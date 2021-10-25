@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Tickets</title>
 </head>
 <body>
@@ -18,8 +27,56 @@
         </div>
     </header>
 
-    <section>
-        <h1>Index.html</h1>
+    <section class="newTickets">
+        <div class="tableCnt">
+            <h1 class="titleTable">Tickets</h1>
+
+            <table class="tableTickets">
+                <tr>
+                    <th class="tableTickets--titles titles_1">ID.</th>
+                    <th class="tableTickets--titles titles_2">Nº Ticket.</th>
+                    <th class="tableTickets--titles titles_3">Descripcion corta.</th>
+                    <th class="tableTickets--titles titles_4">Descripcion completa.</th>
+                    <th class="tableTickets--titles titles_5">Estado</th>
+                    <th class="tableTickets--titles titles_5">Accion</th>
+                </tr>
+                <tr class="tableTickets--row">
+                    <td class="tableTickets--cell">1</td>
+                    <td class="tableTickets--cell">T#0001</td>
+                    <td class="tableTickets--cell">Realizar primer commit con estructura basica.</td>
+                    <td class="tableTickets--cell">Dejar armados archivos de configuracion, ejemplo package.json. Confeccionar estilos basicos para una pagina modelo. Confeccion estructura basica de los archivos HTML estaticos.</td>
+                    <td class="tableTickets--cell">Finalizado</td>
+                    <td class="tableTickets--cell"><a href="#"><i class="fa-solid fa-delete-left"></i></a></td>
+                </tr>
+                <tr>
+                    <td class="tableTickets--cell">2</td>
+                    <td class="tableTickets--cell">T#0002</td>
+                    <td class="tableTickets--cell">Crear el menu de navegacion para las paginas.</td>
+                    <td class="tableTickets--cell">Confeccionar estilos para que el menu quede definitivo y verificar responsive.</td>
+                    <td class="tableTickets--cell">Pendiente</td>
+                    <td class="tableTickets--cell"><a href="#"><i class="fa-solid fa-delete-left"></i></a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="formCnt">
+            <h2 class="titleForm">Ticket Nuevo</h2>
+
+            <form class="formTickets">
+                <label class="formTickets--labels" for="nTicket">Numero de ticket.</label>
+                <input class="formTickets--inputs" type="text" name="nTicket" id="nTicketField">
+
+                <label class="formTickets--labels" for="sDescription">Descricion corta.</label>
+                <input class="formTickets--inputs" type="text" name="sDescription" id="sDescriptionField">
+
+                <label class="formTickets--labels" for="lDescription">Descrpcion completa.</label>
+                <textarea class="formTickets--inputs formTickets--textarea" name="lDescription" id="lDescriptionField" cols="30" rows="10"></textarea>
+
+                <label class="formTickets--labels" for="status">Estado de ticket.</label>
+                <input class="formTickets--inputs" type="text" name="status" id="statusField">
+
+                <button class="formTickets--button"><i class="fa-solid fa-plus"></i></button>
+            </form>
+        </div>
     </section>
 
     <footer>

@@ -8,6 +8,10 @@
 body {
     background-color: var.$color_back_gen;
     color: var.$color_text_gen;
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 1em; 
 }
 
 @import 'mainMenu';
+@import 'tableTickets';
+@import 'formTickets';

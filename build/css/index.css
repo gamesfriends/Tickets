@@ -5,7 +5,9 @@
 
 body {
   background-color: #333333;
-  color: #927952;
+  color: #faebd7;
+  font-family: "Zen Old Mincho", serif;
+  font-size: 1em;
 }
 
 .cntHeader {
@@ -41,6 +43,99 @@ body {
 .mainMenu--item-link:hover {
   background-color: #000000;
   color: #5178c2;
+}
+
+.titleTable, .titleForm {
+  margin-top: 0.8em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.newTickets {
+  display: flex;
+  justify-content: center;
+}
+
+.tableCnt {
+  width: 60%;
+}
+
+.formCnt {
+  width: 40%;
+}
+
+.tableTickets {
+  border-spacing: 0;
+}
+
+.titles_1 {
+  width: 40px;
+}
+
+.titles_2 {
+  width: 80px;
+}
+
+.titles_3 {
+  width: 300px;
+}
+
+.titles_4 {
+  width: 600px;
+}
+
+.tableTickets--cell {
+  border-bottom: 2px solid #918b8b;
+  padding: 1em;
+}
+
+.tableTickets--cell a {
+  color: #faebd7;
+}
+
+.formCnt {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.formTickets--labels {
+  display: block;
+  text-transform: uppercase;
+}
+
+.formTickets--inputs {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.5em 0 0.5em 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.formTickets--textarea {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.formTickets--button {
+  display: block;
+  width: 100%;
+  padding: 0.8em 0 0.8em 0;
+  font-size: 2em;
+  background: transparent;
+  border: 4px solid darkslategray;
+  border-radius: 20px;
+  background-color: darkslategray;
+  color: darkgray;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.formTickets--button:hover {
+  background-color: #142020;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,50 @@
+@use 'variables' as var;
+
+.titleTable, .titleForm {
+    margin-top: 0.8em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.newTickets {
+    display: flex;
+    justify-content: center;
+}
+
+.tableCnt {
+    width: 60%;
+}
+
+.formCnt {
+    width: 40%;
+}
+
+.tableTickets {
+    border-spacing: 0;
+}
+
+.titles_1 {
+    width: 40px;
+}
+
+.titles_2 {
+    width: 80px;
+}
+
+.titles_3 {
+    width: 300px;
+}
+
+.titles_4 {
+    width: 600px;
+}
+
+.tableTickets--cell {
+    border-bottom: 2px solid var.$color_text_table_line;
+    padding: 1em;
+}
+
+.tableTickets--cell a {
+    color: var.$color_text_gen;
+}
