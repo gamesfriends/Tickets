@@ -1,0 +1,18 @@
+{
+    "Tickets": [
+        {
+            "id": 1,
+            "nTicket": "T#0001",
+            "shortDescription": "Realizar primer commit con estructura basica.",
+            "longDescription": "Dejar armados archivos de configuracion, ejemplo package.json. Confeccionar estilos basicos para una pagina modelo. Confeccion estructura basica de los archivos HTML estaticos.",
+            "status": "Finalizado"
+        },
+        {
+            "id": 2,
+            "nTicket": "T#0002",
+            "shortDescription": "Crear el menu de navegacion para las paginas.",
+            "longDescription": "Confeccionar estilos para que el menu quede definitivo y verificar responsive",
+            "status": "Pendiente"
+        }
+    ]
+}

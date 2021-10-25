@@ -1,0 +1,14 @@
+{
+  "name": "tickets",
+  "version": "0.0.1",
+  "description": "Tickets para proyectos web",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "PJS",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
