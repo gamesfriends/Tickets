@@ -1,0 +1,13 @@
+@use 'variables' as var;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var.$color_back_gen;
+    color: var.$color_text_gen;
+}
+
+@import 'mainMenu';

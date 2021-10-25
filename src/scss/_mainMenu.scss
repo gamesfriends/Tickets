@@ -1,0 +1,36 @@
+@use 'variables' as var;
+
+.cntHeader {
+    background-color: var.$color_back_menu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.mainMenu {
+    list-style: none;
+}
+
+.mainMenu--item {
+    display: inline-block;
+}
+
+.mainMenu--item-link {
+    background-color: var.$color_back_menu_item;
+    color: var.$color_text_menu_item;
+    width: 150px;
+    display: inline-block;
+    padding: 0.7em 0;
+    border-radius: 1em;
+    margin-right: 2.5em;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition-duration: 0.8s;
+}
+
+.mainMenu--item-link:hover {
+    background-color: var.$color_text_menu_item;
+    color: var.$color_back_menu_item;
+}
